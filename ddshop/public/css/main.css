@@ -1,0 +1,258 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-11 15:36:32
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-11 22:24:00
+*/
+.container-fluid{ width:100%;}
+.container{ width:1170px;margin:0 auto;}
+.row{ width:100%;}
+.col-1{ width:10%;}
+.col-2{ width:20%;}
+.col-3{ width:30%;}
+.col-4{ width:40%;}
+.col-5{ width:50%;}
+.col-6{ width:60%;}
+.col-7{ width:70%;}
+.col-8{ width:80%;}
+.col-9{ width:90%;}
+.navFlex{ display:flex; justify-content: space-between;}
+.flex{display:flex;}
+li{ position:relative;}
+.fontc{text-align:center;}
+.fontl{text-align:left;}
+.fontr{text-align:right;}
+a:hover{
+    color:#1296DB;
+    cursor:pointer;
+}
+.header-top{
+    background-color: #F2F2F2;
+    height:26px;
+}
+.homecolor{color:#1296DB}
+.headernav{
+    line-height: 26px;
+}
+.userheader>li{
+    height:26px;
+}
+.userheader>li>a{
+    padding:0 5px;
+    height:26px;
+    display:block;
+    line-height:26px;
+}
+.left-icon{
+    padding-left:16px;
+}
+.right-icon{
+    padding-right:16px;
+}
+.caret{
+
+}
+.icon-delta{
+    padding-left:12px;
+}
+.dropdown{
+    border:1px solid transparent;
+}
+.dropdown:hover .icon-delta{
+     background-image: url('../images/icons/上箭头.png');
+}
+.dropdown .dropdown-menu{
+    position:absolute;
+    left:-1px;
+    top:25px;
+    background-color:white;
+    z-index: 10;
+    display:none;
+    border:1px solid #ccc;
+    padding:5px;
+}
+
+.dropdown:hover{
+    background-color:white;
+    border:1px solid #ccc;
+    border-bottom:1px solid white;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+.header-bottom{
+    margin-top:24px;
+}
+.index-logo{
+    width:130px;
+    height:48px;
+    display:block;
+    margin-left:15px;
+}
+.icon-caret{
+    padding-left:10px;
+}
+.city>.dropdown-menu{
+    width:322px;
+}
+.line{
+    position:absolute;
+    top:25px;
+    left:0px;
+    width:100%;
+    height:0;
+    border-bottom:1px solid white;
+    z-index:11;
+}
+/* 搜索样式 */
+.form-control{
+    padding: 4px;
+    width: 490px;
+    height: 25px;
+    border: 1px solid #1296db;
+    line-height: 25px;
+    font-size: 14px;
+    outline:none;
+}
+.input-group{
+    position:relative;
+}
+.search{
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    outline:none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    position:absolute;
+    left:500px;
+    top:0;
+    cursor:pointer;
+}
+/* 搜索文字下方的样式 */
+.nav-top{
+    width:500px;
+    margin-top:10px;
+}
+
+/* 购物篮 */
+.cart{
+
+}
+.cw-cat {
+    position: relative;
+    background-color: #fff;
+    width: 150px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    margin-right:50px;
+    border: 1px solid #e3e4e5;
+}
+.cart-icon{
+    padding-left:30px;
+}
+.nocart,.cartlist{
+    right:-1px;
+    top:38px;
+}
+.cartlist{
+    display:none;
+}
+.div-dropdown:hover{
+    border-color:#ccc;
+}
+.div-dropdown:hover .div-dropdown-menu{
+    display:block;
+}
+.div-dropdown:hover .line2{
+    display:block;
+}
+
+.div-dropdown-menu{
+    position:absolute;
+    background-color:white;
+    z-index: 10;
+    display:none;
+    border:1px solid #ccc;
+    padding:5px;
+}
+.nocart{
+    height: 49px;
+    width:300px;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 49px;
+    overflow: hidden;
+    color: #999;
+}
+.line2{
+    position:absolute;
+    top:38px;
+    right:0px;
+    width:180px;
+    height:0px;
+    border-top:2px solid white;
+    z-index:11;
+    display:none;
+}
+.cart_empty_img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 49px;
+    background-image: url('../images/icons/empty-cart.png');
+}
+
+/* 大导航栏 */
+.nav-list{
+    background-color:#1296db;
+    height:36px;
+    margin-top:15px;
+}
+.nav-menu{
+    font-size:14px;
+    font-weight:500px;
+    line-height:36px;
+    color:white;
+    text-align:center;
+}
+.nav-menu>li>a{
+    color:white;
+    font-size:14px;
+    font-weight:600;
+}
+.category-type{
+    font-size:16px;
+    font-weight:bold;
+    width:200px;
+    height:36px;
+    background-color:#0A6493;
+}
+.main-nav{
+    width:200px;
+    height:500px;
+    overflow:hidden;
+    position:absolute;
+    top:36px;
+    left:0px;
+    background-color:rgba(247,245,245,0.8);
+}
+.side-nav{
+
+}
+.side-nav>li{
+    text-align:left;
+    padding-bottom:5px;
+    padding-left:20px;
+    height:25px;
+    color:#777;
+    font-weight:normal;
+    font-size:14px;
+}
+.side-nav>li:hover a{
+    background-color:white;
+    font-weight:700;
+}

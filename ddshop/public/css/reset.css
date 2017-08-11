@@ -1,0 +1,10 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-decoration:none;
+}
+body,a,span{
+    color:#333;
+    font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
